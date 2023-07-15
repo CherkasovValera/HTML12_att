@@ -201,7 +201,12 @@ summary::-webkit-details-marker {
   line-height: 38px;
   color: #222222;
 }
-
+.of_luxerious {
+  color: #222;
+}
+.fashion  {
+  color: #F16D7F;
+}
 .promo__content {
   padding-left: 64px;
 }
@@ -211,7 +216,7 @@ summary::-webkit-details-marker {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(3, 1fr);  
-  padding-bottom: 96px;
+  margin-bottom: 96px;
 }
 
 .sale__item {
@@ -240,7 +245,7 @@ summary::-webkit-details-marker {
 }
 
 .sale__item_big {
-  min-height: 180px;
+  
   grid-column: 1 / -1;
 }
 
@@ -734,9 +739,47 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
 }
+  
 @media screen and (min-width: 200px) and (max-width:768px){
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
   .header{
   padding-left: 32px;
   padding-right: 32px;
+  }
+  .promo__img{
+    padding-right: 39px;
+  }
+  .promo__content{
+    padding-left: 0px;
+  }
+  .promo__info{
+    padding-left: 0px;
+    padding-bottom: 12px;
+  }
+  .promo__title{
+    color: #222;
+    padding-left: 16px;
+font-family: Lato;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+  }
+  .promo__heading{
+    font-family: Lato;
+    padding-left: 16px;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  .sale {
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);  
+    margin-bottom: 110px;
   }
 }
