@@ -449,6 +449,7 @@ flex-shrink: 0;
   -ms-flex-pack: center;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 86px;
 }
 
 .advantages__item {
@@ -779,40 +780,26 @@ flex-shrink: 0;
 .subscribl_box{
   width: 100%;
   }
-  .subscribl__img_sl {
-    width: 100%;
-  min-height: 400px;
-  background-size: cover;
-  background-position: center;
-    background-image: url(img/subscribe.jpg);
-    position: relative;
-    
-  }
   
-  .subscribl__img1 {    
-    max-width: 100%;
-    height: auto; 
-  }
   .image_sub{
     max-width: 100%;
   }
-  .subscribl__img2 {
-    position: absolute;
+  .subscribl__img2 {    
     width: 100%;
-    height: auto;
-    padding-top: 104px;
-    padding-bottom: 104px;
+    height: auto;    
+    margin-bottom: 156px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 200px;
     
 }
     .subscribl_foto_txt{
-    width: 340px;
+    width: 360px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -845,7 +832,7 @@ flex-shrink: 0;
 
   }
  .subscribl_win{
-  width: 350px;
+  width: 360px;
  }
   .subscribl_titl{    color: #222224;
     text-align: center;
@@ -964,7 +951,7 @@ flex-shrink: 0;
     padding-left: calc(50% - 368px);
     padding-right: calc(50% - 368px);
   }
-  .header{
+  .header, .footer{
   padding-left: 32px;
   padding-right: 32px;
   }
@@ -1010,5 +997,13 @@ line-height: normal;
   .advantages {    
     padding-top: 48px;
     padding-bottom: 64px;
+    margin-bottom: 54px;
+  }
+  .subscribl__img2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 140px;
+    gap: 58px;
   }
 }
