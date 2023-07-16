@@ -183,7 +183,7 @@ summary::-webkit-details-marker {
 .promo__info {
   border-left: 12px solid #F16D7F;
   padding-left: 16px;
-  margin-top: 48%;
+  margin-top: 215px;
 }
 
 .promo__title {
@@ -268,7 +268,7 @@ summary::-webkit-details-marker {
 }
 
 .product-box {
-  margin-bottom: 145px;
+  
 }
 
 .product-box__heading {
@@ -408,6 +408,7 @@ summary::-webkit-details-marker {
 }
 .btn_box{
   text-align: center;
+  margin-bottom: 79px;
 }
 .btn{
   color: #F26376;
@@ -778,6 +779,7 @@ flex-shrink: 0;
 }
 .subscribl_box{
   width: 100%;
+  height: auto;
   }
   
   .image_sub{
@@ -794,7 +796,7 @@ flex-shrink: 0;
     justify-content: center;
     flex-wrap: wrap;
     gap: 200px;    
-  min-height: 400px;
+  min-height: 448px;
   background-size: cover;
   background-position: center;
   background-image: url("img/subscribe.jpg");
@@ -968,6 +970,7 @@ flex-shrink: 0;
     padding-left: 0px;
   }
   .promo__info{
+    margin-top: 138px;
     padding-left: 0px;
     padding-bottom: 12px;
   }
@@ -1000,17 +1003,27 @@ line-height: normal;
   .product-box__content {    
     gap: 16px;
   }
+  .btn_box{
+    text-align: center;
+    margin-bottom: 79px;
+  }
   .advantages {    
     padding-top: 48px;
     padding-bottom: 64px;
-    margin-bottom: 54px;
+    
   }
   .subscribl__img2{
     width: 100%;
+    height: 614px;
     display: flex;
     flex-wrap: wrap;    
-    margin-bottom: 140px;
+    flex-direction: column;
     gap: 58px;
+    min-height: 448px;
+  background-size: cover;
+  background-position: revert;  
+    background-repeat: no-repeat;    
+  background-image: url("img/subscribe.jpg");
   }
 }
 @media screen and (min-width: 200px) and (max-width:375px){
