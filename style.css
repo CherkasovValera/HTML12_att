@@ -780,7 +780,13 @@ flex-shrink: 0;
   width: 100%;
   }
   .subscribl__img_sl {
+    width: 100%;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+    background-image: url(img/subscribe.jpg);
     position: relative;
+    
   }
   
   .subscribl__img1 {    
@@ -792,30 +798,21 @@ flex-shrink: 0;
   }
   .subscribl__img2 {
     position: absolute;
-    width: auto;
+    width: 100%;
     height: auto;
     padding-top: 104px;
     padding-bottom: 104px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    -ms-flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    gap: 30px;
-    display: flex;
     flex-direction: row;
-    gap: 40px;
-    left: 107px;
-    top: 9px;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
-  
-  .subscribl_foto_txt{
-    width: 360px;
+    .subscribl_foto_txt{
+    width: 340px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -827,25 +824,9 @@ flex-shrink: 0;
     -ms-flex-align: center;
     align-items: center;
     gap: 24px;
-    width: 48%;
+    flex-wrap: wrap;
   }
-  .subscribl_email{
-    width: 48%;
-  width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 24px;
-  }
-  .subscribl_titl{
-    
+  .vestibulum_norm{
     color: #222224;
     text-align: center;
     font-family: Lato;
@@ -853,15 +834,68 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
   }
+  .pulvinar_kurs{
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+
+  }
+ .subscribl_win{
+  width: 350px;
+ }
+  .subscribl_titl{    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+  }
+  .subscribl_content{
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+    margin-bottom: 32px;
+  }
+  .subscribl_email{
+    width: 48%;
+    display: flex; 
+  }
+  .leave_input{
+    border-radius: 20px 0px 0px 20px;
+    border-color: #E1E1E1;
+    background:  #E1E1E1;
+    padding: 15px 55px 15px 22px;
+  }
+  .subscribe_btn{
+    border-radius: 0px 20px 20px 0px;
+    border-color: #F16D7F;
+    background:  #F16D7F;
+    padding: 15px 25px 15px 22px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+    
+  
   .footer{
     min-height: 75px;
     background: #222222;
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 230px 0px 235px;
+  padding: 0px 230px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -891,6 +925,7 @@ flex-shrink: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -905,11 +940,24 @@ flex-shrink: 0;
     line-height: normal;
     
   }
-  .footer_win{
-    background: #fbfbfb;
-    padding: 6px;;
+  .footer_win{display: flex;
+    width: 32px;
+    height: 32px;
+    border-color: #FFF;
+    background: #FFF;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;    
   }
-
+  .footer_win:hover{
+    border: 1px solid #4491c4;
+    border-bottom-width: 212px;
+    border-bottom: 48px;
+    color:  #fff;
+    background-color: #047550c4;
+    transition: all 0.3s;
+    filter: invert(30);
+  }
   
 @media screen and (min-width: 200px) and (max-width:768px){
   .center {
