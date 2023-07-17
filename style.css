@@ -954,7 +954,7 @@ flex-shrink: 0;
     filter: invert(30);
   }
   
-@media screen and (min-width: 200px) and (max-width:768px){
+@media screen and (min-width: 768px) and (max-width:1024px){
   .center {
     padding-left: calc(50% - 368px);
     padding-right: calc(50% - 368px);
@@ -1026,7 +1026,7 @@ line-height: normal;
   background-image: url("img/subscribe.jpg");
   }
 }
-@media screen and (min-width: 200px) and (max-width:375px){
+@media screen and (min-width: 320px) and (max-width:767px){
   .center {
     padding-left: calc(50% - 171.5px);
     padding-right: calc(50% - 171.5px);
